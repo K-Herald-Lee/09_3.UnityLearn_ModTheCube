@@ -34,7 +34,7 @@ public class Cube : MonoBehaviour
 
     void Rotate() 
     {
-        float _speed = 10.0f;
+        float _speed = 100.0f;
         transform.Rotate(_speed * Time.deltaTime, 0.0f, 0.0f);
     }
 
